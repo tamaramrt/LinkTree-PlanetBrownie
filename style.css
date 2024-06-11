@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #800000;
+  font-family: 'Karla', sans-serif;
+}
+
+:root {
+  --bgcolor: #FFE4B5;
+  --accentcolor: #800000;
+}
+
+body {
+  background-color: var(--bgcolor);
+}
+
+.link-tree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 90vw;
+  margin: 40px auto;
+  gap: 20px;
+}
+
+.link-tree img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 7px solid var(--accentcolor);
+}
+
+.link-tree h1 {
+  font-size: 2.5rem;
+}
+
+.link-tree a {
+  background-color: var(--accentcolor);
+  color: var(--bgcolor);
+  width: 75%;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: solid 2px var(--accentcolor);
+  border-radius: 2rem;
+}
+
+.link-tree a:hover {
+  background-color: var(--bgcolor);
+  color: var(--accentcolor);
+}
+
+@media (min-width: 1024px) {
+  .link-tree {
+    width: 40vw;
+  }
+}
