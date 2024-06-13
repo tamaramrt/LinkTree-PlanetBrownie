@@ -14,7 +14,11 @@
 }
 
 body {
-  background-color: var(--bgcolor);
+  background-image: url('shutterstock_1406785433.0.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;
 }
 
 .link-tree {
@@ -28,14 +32,19 @@ body {
 }
 
 .link-tree img {
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   border: 7px solid var(--accentcolor);
 }
 
 .link-tree h1 {
-  font-size: 2.5rem;
+  font-size: 2.5 rem;
+  background-color: var(--bgcolor);
+  font-weight: bold;
+  padding: 10px;
+  
+  border-radius: 2rem;
 }
 
 .link-tree a {
